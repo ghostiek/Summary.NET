@@ -12,7 +12,7 @@ sum.ApiKey(_apikey)
     .Url(_url)
     .SentenceCount(_number);
 ```
-Then you can just get the JSON using .JSON();
+Then you can just get the JSON using .GetJSON();
 
 Note: Every parameter is optional except your API key.
 
