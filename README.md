@@ -3,7 +3,7 @@
 This is a library written in C# for http://smmry.com/
 
 
-#Example
+# Example
 
 The library uses a Builder pattern, therefore you can adapt your Summary object like this
 ```cs
