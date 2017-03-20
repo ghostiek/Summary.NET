@@ -1,4 +1,4 @@
-# SummaryLib
+# Summary.NET
  
 This is a library written in C# for http://smmry.com/
 
