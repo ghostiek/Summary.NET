@@ -14,8 +14,9 @@ sum.ApiKey(_apikey)
 ```
 Then you can just get the JSON using .JSON();
 
+Note: Every parameter is optional except your API key.
 
-TODO
+#TODO
 
   1) Deserialize the JSON to make the data more user-friendly
   2) Work on design pattern
