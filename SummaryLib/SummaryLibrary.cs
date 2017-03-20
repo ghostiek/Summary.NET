@@ -114,10 +114,8 @@ namespace SummaryLib
             StringBuilder builder = new StringBuilder($"?");
             foreach (var item in urlDictionary)
             {
-                builder.Append($"{item.Key}={item.Value}&");
-            }
-            //Removes the extra &
-            builder.Remove(builder.Length - 1, 1); 
+                if(item.Value != null) builder.Append($"{item.Key}={item.Value}&");
+            }           
             return builder.ToString();
         }
 
