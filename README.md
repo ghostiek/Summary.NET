@@ -5,7 +5,7 @@ This is a library written in C# for http://smmry.com/
 
 # Example
 
-The library uses a Builder pattern, therefore you can adapt your Summary object like this
+The library uses a Fluent Interface pattern, therefore you can adapt your Summary object like this
 ```cs
 var sum = new Summary();
 sum.ApiKey(_apikey)
