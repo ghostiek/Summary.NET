@@ -4,3 +4,5 @@ C:\Users\Patrick Tawil\Documents\Visual Studio 2017\Projects\SummaryLib\SummaryL
 C:\Users\Patrick Tawil\Documents\Visual Studio 2017\Projects\SummaryLib\SummaryLib\obj\Debug\SummaryLib.csprojResolveAssemblyReference.cache
 C:\Users\Patrick Tawil\Documents\Visual Studio 2017\Projects\SummaryLib\SummaryLib\obj\Debug\SummaryLib.dll
 C:\Users\Patrick Tawil\Documents\Visual Studio 2017\Projects\SummaryLib\SummaryLib\obj\Debug\SummaryLib.pdb
+C:\Users\Patrick Tawil\Documents\Visual Studio 2017\Projects\SummaryLib\SummaryLib\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Patrick Tawil\Documents\Visual Studio 2017\Projects\SummaryLib\SummaryLib\bin\Debug\Newtonsoft.Json.xml
