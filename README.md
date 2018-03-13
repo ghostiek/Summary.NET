@@ -5,21 +5,25 @@ This is a library written in C# for http://smmry.com/
 
 # Example
 
-The library uses a Fluent Interface pattern, therefore you can adapt your Summary object like this
+This is how you would make your request
 ```cs
-var sum = new Summary();
-sum.ApiKey(_apikey)
-    .Url(_url)
-    .SentenceCount(_number);
+var smmryParam = new SmmryParameters()
+    {
+        ApiKey = "ApiKey",
+        Url = "https://en.wikipedia.org/wiki/Augustus",
+        SentenceCount = 3,
+        KeywordCount = 24,
+        IncludeBreaks = true,
+        IncludeQuotes = true
+};
+var smmryDownloader = new SmmryDownloader();
+var json = smmryDownloader.GetJsonAsync(smmryParams);
 ```
-Then you can just get the JSON using .GetJSON();
 
-Note: Every parameter is optional except your API key.
+Note: Every parameter is optional except your API key and website URL
 
 # TODO
 
   1) Deserialize the JSON to make the data more user-friendly
-  2) Work on design pattern
-  3) Create cleaner implementations
 
 Otherwise the Library is pretty straighforward and fully functional.
