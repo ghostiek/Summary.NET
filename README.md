@@ -15,7 +15,7 @@ var smmryParam = new SmmryParameters()
         KeywordCount = 24,
         IncludeBreaks = true,
         IncludeQuotes = true
-};
+    };
 var smmryDownloader = new SmmryDownloader();
 var json = smmryDownloader.GetJsonAsync(smmryParams);
 ```
